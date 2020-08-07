@@ -1,10 +1,8 @@
 
-
 ## Installation
 
 ```bash
-git clone https://github.com/Abhishekop722/distanceWebService.git
-cd distanceWebService
+git clone https://github.com/harshsingla/sociopool-task.git
 npm i
 ```
 
@@ -15,3 +13,7 @@ npm i
 npm run build
 npm start
 ```
+# Swagger Description (localhost:8349)
+
+`Post Request for Add user 
+ Get request for get the result of the user`
