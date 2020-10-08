@@ -17,7 +17,9 @@ const rejectFolders = [
     "js",
     "img",
     "fonts",
-    "images"
+    "images",
+    "public",
+    "extras"
 ];
 
 // removing static resources from the logger
@@ -30,7 +32,7 @@ mongoose.connect(MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true 
     console.log('MongoDB Connected')
 }).catch(err => {
     console.warn("MongoDB connection error. Please make sure MongoDB is running. " + err);
-    // process.exit();
+    process.exit();
 });
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
