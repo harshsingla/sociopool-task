@@ -1,6 +1,6 @@
 export const errorObj = { error: true, type: "error", success: false };
 export const successObj = { error: false, type: "success", success: true };
-export const secret = process.env.SECRET_KEY || "asdfasdfasdfasdf";
+export const secret = process.env.SECRET_KEY || "thejbg@6785#*jgv*ign";
 
 export interface ErrorObj {
     error: boolean;
